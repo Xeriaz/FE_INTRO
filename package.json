@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "suitcss index.css build/build.css"
+  },
+  "dependencies": {
+    "suitcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "suitcss-preprocessor": "^4.0.0"
+  }
+}

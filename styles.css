@@ -1,0 +1,59 @@
+.u-marginLeft30px {
+	margin-left: 30px;
+}
+
+.u-colorOrange {
+	color: #eb9706;
+}
+
+.u-colorDarkGrayishCyan {
+	color: #627c81;
+}
+
+.u-colorGray {
+	color: #666;
+}
+
+.u-fontWeightBolder {
+	font-weight: bolder;
+}
+
+.u-fontWeightNormal {
+	font-weight: normal;
+}
+
+.u-listStyleCircle li::before{
+	content: "\2022";
+}
+
+.u-listStyleArrow li::before {
+	content: "\2192";
+}
+
+.u-listStyleColorOrange li::before {
+	color: #eb9706;
+}
+
+.u-listPaddingRight5px li::before {
+	padding-right: 8px;
+}
+
+.u-paddingTop10px {
+	padding-top: 20px;
+}
+
+.u-paddingBottom5px {
+	padding-bottom: 5px;
+}
+
+.u-displayNone {
+	display: none;
+}
+
+.u-textDecorationUnderline {
+	text-decoration: underline;
+}
+
+.u-cursorPointer {
+	cursor: pointer;
+}
