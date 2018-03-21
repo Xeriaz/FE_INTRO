@@ -1,63 +1,46 @@
-.u-marginLeft30px {
+.Container {
 	margin-left: 30px;
-}
-
-.u-marginTop20px {
 	margin-top: 20px;
 }
 
-.u-colorOrange {
-	color: #eb9706;
-}
-
-.u-colorDarkGrayishCyan {
+.PageTitle {
 	color: #627c81;
-}
-
-.u-colorGray {
-	color: #666;
-}
-
-.u-fontWeightBolder {
-	font-weight: bolder;
-}
-
-.u-fontWeightNormal {
 	font-weight: normal;
 }
 
-.u-listStyleCircle li::before{
-	content: "\2022";
-}
-
-.u-listStyleArrow li::before {
-	content: "\2192";
-}
-
-.u-listStyleColorOrange li::before {
-	color: #eb9706;
-}
-
-.u-listPaddingRight5px li::before {
+.List {
+	color: #666;
 	padding-right: 8px;
 }
 
-.u-paddingTop10px {
-	padding-top: 20px;
+.List--circle li::before {
+	content: "\2022";
+	color: #eb9706;
+	padding-right: 8px;
 }
 
-.u-paddingBottom5px {
+.List--arrow li::before {
+	content: "\2192";
+	color: #eb9706;
+}
+
+.ParagraphTitle {
+	color: #eb9706;
+	font-weight: bolder;
+	padding-top: 10px;
 	padding-bottom: 5px;
+}
+
+.ParagraphText {
+	color: #666;
+}
+
+.MoreText {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #627c81;
 }
 
 .u-displayNone {
 	display: none;
-}
-
-.u-textDecorationUnderline {
-	text-decoration: underline;
-}
-
-.u-cursorPointer {
-	cursor: pointer;
 }
