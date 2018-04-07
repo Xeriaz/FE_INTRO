@@ -13,15 +13,18 @@
 	padding-right: 8px;
 }
 
-.List--circle li::before {
-	content: "\2022";
+/* TODO */
+.List-item::before {
 	color: #eb9706;
 	padding-right: 8px;
 }
 
-.List--arrow li::before {
+.List-item--circle::before {
+	content: "\2022";	
+}
+
+.List-item--arrow::before {
 	content: "\2192";
-	color: #eb9706;
 }
 
 .ParagraphTitle {
